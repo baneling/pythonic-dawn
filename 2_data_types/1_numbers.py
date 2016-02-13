@@ -9,7 +9,7 @@
 # Hexadecimal Number
 0x0d
 # Octal Number
-0015
+015
 
 ## Floating Point Numbers
 # Float
