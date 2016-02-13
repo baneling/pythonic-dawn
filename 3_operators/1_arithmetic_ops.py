@@ -6,10 +6,10 @@
 # There are other ways to acces a python shell, like IDLE, or a web shell.
 
 #Additor +
-5 + 3
+10 + 3
 
 #Subtracter -
-5 - 3
+10 - 3
 
 # Multiplicator *
 10 * 3
