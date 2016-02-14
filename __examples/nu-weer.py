@@ -40,6 +40,7 @@ for n in range (0, len(maxtemps)):
 #> datetime.datetime.now().weekday()
 # Wij hebben datetime.datetime.now() al afgekort met now:
 #> now.weekday()
+
 # Daar gaan we met n op itereren, van 0 tot 4.
 # Het kan dus voorkomen (van donderdag tot en met zondag) dat onze index
 # (now.weekday() + n) te hoog wordt voor de dictionary.
