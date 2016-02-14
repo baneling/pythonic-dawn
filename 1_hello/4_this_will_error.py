@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
 
+print ("Hello " + name)
 name = "yourname"
-print("Hello " + name)
-
