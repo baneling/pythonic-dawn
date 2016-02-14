@@ -12,12 +12,12 @@ soup        = Bs( response )
 # Niet altijd hetzelfde
 captions    = soup.find_all("span", {"class": "title"})
 
-# Output 
-print ("De nu.nl headlines van %s" % 
-        datetime.date.isoformat(datetime.datetime.now()))
+# Output
+vandaag = datetime.date.isoformat(datetime.datetime.now())
+print ("De nu.nl headlines van %s" % vandaag)
 for i in captions:
     print ("#%d: %s" % (captions.index(i), i.string))
-    time.sleep(0.5)
+    time.sleep(0.8)
 
 
 
